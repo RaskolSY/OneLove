@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/MontserratRegular.eot');
+    src: url('../fonts/MontserratRegular.eot') format('embedded-opentype'),
+        url('../fonts/MontserratRegular.woff2') format('woff2'),
+        url('../fonts/MontserratRegular.woff') format('woff'),
+        url('../fonts/MontserratRegular.ttf') format('truetype'),
+        url('../fonts/MontserratRegular.svg#MontserratRegular') format('svg');
+}
+
+
+
+* {
+    font-family: 'MontserratRegular', sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.logo {
+    height: 60px;
+}
+
+.fab {
+    font-size: 1.5rem;
+}
+
+.footer-nav-links .title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.footer-nav-links a {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.rastyag {
+    display: flex;
+}
+
+.product__card {
+    height: 100%;
+    width: 20%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.product__card:hover {
+    transform: scale(1.05);
+}
+
+.product__img {
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product__img img {
+    width: 100%;
+    height: auto;
+}
+
+.product__info {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+.product__name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product__similar {
+    font-size: 16px;
+    color: #555;
+}
+
+.product__price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.product__bottom-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.product__card .button {
+    
+    color: #fff;
+    background-color: #e44d26;
+}
+
+.product__card .button:hover {
+    background-color: #d1401e;
+}
